@@ -2,6 +2,11 @@ name: Daily Build
 on:
   schedule:
     - cron: '0 0 * * *'
+  push:
+    branches:
+      - master
+    paths:
+      - 'build.py'
 
 jobs:
   build:
