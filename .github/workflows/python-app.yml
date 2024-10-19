@@ -38,8 +38,8 @@ jobs:
 
     - name: Commit changes
       run: |
-        git add build.py
-        git commit -m "Automated commit: Update file.txt"
+        git add README.md
+        git commit -m "Automated commit: Update README.md"
 
     - name: Push changes
       run: |
