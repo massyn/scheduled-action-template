@@ -30,10 +30,10 @@ jobs:
     - name: Run build script
       run: python build.py
 
-    # - name: Set git user
-    #   run: |
-    #     git config --global user.name "github-actions[bot]"
-    #     git config --global user.email "github-actions[bot]@users.noreply.github.com"
+    - name: Set git user
+      run: |
+        git config --global user.name "massyn"
+        git config --global user.email "phil@massyn.net"
 
     - name: Commit changes
       run: |
