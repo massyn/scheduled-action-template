@@ -1,6 +1,5 @@
 from datetime import datetime
 
-# Get the current timestamp
 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
 content = f"# Hello, World!\n\nThis script was generated on: {current_time}"
